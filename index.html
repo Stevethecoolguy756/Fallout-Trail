@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <meta charset="utf-8">
+    <title>The Oregon Trajectory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Relive the historical mass terrestrial exodus of the 21st century and take the first wandering steps into the boundless frontier that we now call home.">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous">
+    </script>
+    <!-- browserify bundle -->
+    <script src="bundle.js"></script>
+
+    <!-- less bundle -->
+    <link rel="stylesheet" href="bundle.css"/>
+
+    <link rel="author" href="https://github.com/7yl4r">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="assets/Flat-UI-master/dist/js/vendor/html5shiv.js"></script>
+    <script src="assets/Flat-UI-master/dist/js/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <nav-header></nav-header>
+    <div role="main">
+        <header class="game-header">
+             <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        The Oregon Trajectory
+                        <span class="badge">
+                            v<span class='version-number'></span>
+                        </span>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse-01">
+                    <ul class="nav navbar-nav">
+                        <li><a href="https://github.com/7yl4r/the-oregon-trajectory">GitHub</a></li>
+                        <li><a href="https://github.com/7yl4r/the-oregon-trajectory/wiki">Wiki</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+             </nav>
+        </header>
+
+        <div id="game-container-div"></div>
+
+    </div><!-- /.main -->
+
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="assets/Flat-UI-master/dist/js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/Flat-UI-master/dist/js/vendor/video.js"></script>
+    <script src="assets/Flat-UI-master/dist/js/flat-ui.min.js"></script>
+
+</body>
+<app-footer></app-footer>
+<span class="glyphicon glyphicon-qrcode" onclick="$('#debug-section').toggle()" style="width:3em; display:block; margin-left: auto; margin-right: auto;"></span>
+</html>
